@@ -10,8 +10,8 @@ import HeaderImg from "./HeaderImg"
 
 const Header = ({ siteTitle }) => {
   const [showMenu, setShowMenu] = React.useState(false)
-  Header.toggleMenu = () => setShowMenu(!showMenu)
-  Header.handleClickOutside = () => setShowMenu(false)
+  // Header.toggleMenu = () => setShowMenu(!showMenu)
+  // Header.handleClickOutside = () => setShowMenu(false)
   //  const menuActive = Header.showMenu ? "is-active" : ""
   //  const burgerActive = Header.showMenu ? "is-active" : ""
 
